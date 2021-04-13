@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nginx
+FROM library/nginx
 
 # Install Nginx.
 RUN \
